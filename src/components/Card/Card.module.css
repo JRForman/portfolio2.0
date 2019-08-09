@@ -1,0 +1,178 @@
+/* .h2 {
+	padding: 1px 1px;
+	margin: 1px 1px;
+	width: 100%;
+	z-index: 1;
+	position: static;
+} */
+p {
+	margin: 5px;
+	width: 100%;
+}
+h2 {
+	text-shadow: 1.5px 1.5px grey;
+}
+.codeButton {
+	color: white;
+}
+
+
+.deploymentButton {
+	color: white;
+}
+
+.button {
+	border: solid black;
+	background-color: #233237;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	display: block;
+	height: 20px;
+	padding: 10px;
+	margin: 10px;
+	width: 80px;
+}
+
+.button:hover {
+	transition: all ease-in 0.2s;
+	transform: scale(1.1);
+}
+
+.buttonContainer {
+	/* position: absolute;
+	bottom: 0;
+	left:0; */
+	width: 100%;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+}
+.techTags{
+	border: solid 1px black;
+	border-radius: 4px;
+	float: left;
+	margin: 4px 5px;
+	padding:3px;
+	background: #cdcdcd;
+	opacity: .6;
+	box-shadow: 2px 2px grey;
+}
+
+.CardActive img {
+	transition: all ease-in-out .5s;
+	object-fit: contain;
+	flex: 1;
+	margin: 1rem;
+	overflow: hidden;
+	height: 200px;	
+}
+
+.Card img {
+	position: absolute;
+	object-fit: fill;
+	width: auto;
+	height: 320px;
+	max-width: 320px;
+	transition: all ease-in-out .5s;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: .5;
+	background-size: 100%;
+}
+
+.Card {
+	border: solid black 1px;
+	box-shadow: 5px 5px;
+	width: 300px;
+	padding: 10px;
+	margin: 6px;
+	text-align: left;
+	border-radius: 1px;
+	transition: width 0.25s;
+	height: 300px;
+	position: relative;
+	z-index: 0;
+	background-color: #F3F5F7;
+
+}
+.ImageBox{
+	object-fit: contain;
+	display: flexbox;
+	flex-shrink: 1;
+}
+
+.CardActive {
+	width: calc(100% - 30px);
+	box-sizing: border-box;
+	border: solid black 2px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	border-radius: 5px;
+	/* min-height: 90vh;
+	max-height: 90vh; */
+	background: #A1AFC6;
+	transition: width ease-out .2s;
+	top: 50px;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	overflow: hidden;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.CardActive:hover {
+
+}
+
+.Card .description {
+	display: none;
+}
+
+.Card:hover {
+	transition: all ease-in 0.2s;
+	transform: scale(1.1);
+	background: #B5BCCE;
+}
+
+.CardCollapsed {
+	transform: width(20px);
+}
+
+.hidden{
+	display: none;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 730px) {
+	.CardActive {
+		margin-top: 50px;
+		/* max-height: 80vh; */
+	}
+	.Card {
+		left:0;
+		right:0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 385px) {
+	.CardActive {
+		margin-top: 85px;
+		/* max-height: 10rem; */
+	}
+}

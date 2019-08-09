@@ -1,0 +1,114 @@
+[
+	{
+		"name": "",
+		"github": "",
+		"deployment": "",
+		"description": "",
+		"technologies": [],
+		"image": ""
+	},
+	{
+		"name": "Career Center",
+		"github": "https://github.com/JRForman/Project_2",
+		"deployment": "https://mysterious-cliffs-26268.herokuapp.com/",
+		"description": "Project where students can research College vs trade school and other options",
+		"technologies": [
+			"Express",
+			"MySQL",
+			"Passport",
+			"ChartJS",
+			"HandleBars"
+		],
+		"image": "Career Center Logo.png"
+	},
+	{
+		"name": "Fetch",
+		"github": "https://github.com/JRForman/Fetch",
+		"description": "",
+		"technologies": ["ReactJS", "Express"],
+		"image": "fetch.png"
+	},
+	{
+		"name": "Fetch API",
+		"github": "https://github.com/JRForman/fetch_API",
+		"deployment": "https://cryptic-springs-20095.herokuapp.com/api-docs/",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus ante. Nulla laoreet sem augue. Aliquam fermentum eros ac dui blandit laoreet. Ut vel ante mi. Pellentesque finibus, est et posuere blandit, tellus tortor interdum est, ac semper diam tortor sed sem. Sed feugiat metus vitae enim pretium, ac tempor augue euismod. Donec mattis, diam nec scelerisque tempor, quam est rhoncus libero, placerat rhoncus risus urna dapibus tellus. Phasellus diam neque, pulvinar vel commodo ac, scelerisque ac tellus. Cras suscipit dolor in mi tristique, a pretium justo hendrerit. Curabitur at tempor felis. Maecenas imperdiet orci justo, vitae volutpat elit scelerisque nec.",
+		"technologies": ["Swagger", "RESTful", "API"],
+		"image": "SwaggerUI.gif"
+	},
+	{
+		"name": "ScrappyScrappy",
+		"github": "https://github.com/JRForman/MongoScraper",
+		"deployment": "https://safe-headland-85579.herokuapp.com/",
+		"description": "Hacker News Scrapper. CRUD operations in MongoDB utilizing Mongoose, HandleBars, and Bootstrap.",
+		"technologies": ["MongoDB", "Mongoose", "HandleBars", "Bootstrap"],
+		"image": "MongoScrapper.png"
+	},
+	{
+		"name": "ScheduleMe",
+		"github": "https://github.com/JRForman/ScheduleMe",
+		"deployment": "https://movie-schedule-me.web.app/",
+		"description": "App to allow friends to schedule hangouts.  Users can vote on a movie or place to go.  This is our first group project from bootcamp.",
+		"technologies": [
+			"Firebase",
+			"Google Maps API",
+			"Yelp API",
+			"Fandango API"
+		],
+		"image": ""
+	},
+	{
+		"name": "Burgers Man",
+		"github": "https://github.com/JRForman/burger",
+		"deployment": "https://sleepy-atoll-80168.herokuapp.com/",
+		"description": "Simple webapp to demostrate handlebars and MySQL",
+		"technologies": ["Node", "Express", "Handlebars", "MySQL"],
+		"image": "Burgers.png"
+	},
+	{
+		"name": "Friend Finder",
+		"github": "https://github.com/JRForman/friendFinder",
+		"deployment": "https://desolate-plateau-74587.herokuapp.com/",
+		"description": "An app to help you find the right dog for you.  Used to learn routes in express.",
+		"technologies": ["Express", "jQuery", "Bootstrap"],
+		"image": ""
+	},
+	{
+		"name": "dxfAssy",
+		"github": "https://github.com/JRForman/dxfAssy",
+		"description": "DXF files are used by our nesting software to create g-Code readable by our CNC controllers. This program is to automatically export .dxf files from an Autodesk Inventor Assembly file. Assign the file to the correct table with parameters for each part and each different cutting process/controller. Next, start the nesting software and autonest. iLogic uses Inventor's builtin .NET API.",
+		"technologies": [".NET", "iLogic", "Autodesk Inventor", "C#"],
+		"image": ""
+	},
+	{
+		"name": "Captain Battle",
+		"github": "https://github.com/JRForman/CaptainBattle",
+		"deployment": "https://jrforman.github.io/Captain_Battle/",
+		"description": "Simple game using only JS and HTML.  The object of the game is to win based on the order you defete your oponents.",
+		"technologies": ["JavaScript", "HTML", "CSS"],
+		"image": ""
+	},
+	{
+		"name": "Create Sheets",
+		"github": "https://github.com/JRForman/createSheets",
+		"description": "Create drawing sheets from Autodesk Inventor assemblies.",
+		"technologies": ["iLogic", "Autodesk Inventor",".NET","C#"],
+		"image": ""
+	},
+	{
+		"name": "FireFly Trivia",
+		"github": "https://github.com/JRForman/TriviaGame/",
+		"deployment": "https://jrforman.github.io/TriviaGame/",
+		"description": "Simple trivia game aimed at learning async calls.",
+		"technologies": ["HTML", "JavaScript", "CSS"],
+		"image": ""
+	},
+	{
+		"name": "Bamazon",
+		"github": "https://github.com/JRForman/Bamazon",
+		"deployment": "",
+		"description": "Simple CRUD using MySQL.",
+		"technologies": [],
+		"image": ""
+	}
+]

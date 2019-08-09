@@ -1,0 +1,59 @@
+
+.LandingBox {
+	width: 100vw;
+	height: 100vh;
+	background-color: #A1AFC6;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	opacity: 1;
+}
+
+.LandingBox img {
+	height: 100%;
+	/* display: block; */
+	opacity: 0.;
+	position: absolute;
+	z-index: -1;
+	max-width: 100vw;
+	margin: auto;
+	left:0;
+	right:0;
+	margin: auto;
+}
+.LandingBox h1 {
+	margin: auto;
+	font-size: 1cm;
+	padding: 230px 40px 10px 100px;
+	z-index: 3;
+	opacity: 1;
+}
+.linkContainer {
+	float: right;
+	zoom: 1.5;
+	z-index: 1;
+	display: grid;
+	
+}
+.NavIcons {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.NavIcons a {
+	float: right;
+	padding: 10px;
+	color: white;
+	transition: 0.5s;
+
+}
+
+.NavIcons a:hover {
+	background-color: white;
+	color: black;
+	font-size: 150%;
+	transition: 0.5s;
+}

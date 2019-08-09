@@ -1,0 +1,24 @@
+.Headline{
+    color:white;
+    right:40px;
+    top: 0;
+    text-align: center;
+    float:left;
+    width:250px;
+}
+.Headline:before{
+    color:white;
+    content: '{ Jason Forman }';
+    font-size: 200%;
+    animation-name:headline;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headline {
+    5% {opacity: 0;}
+    10% {opacity: 1;content: '{ JSON Format  }';}
+    15% {opacity: 0;}
+    16% {content:'{ Jason Forman }'}
+    25% {opacity: 1;}
+}
