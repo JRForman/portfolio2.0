@@ -55,7 +55,7 @@ h2 {
 	margin: 4px 5px;
 	padding:3px;
 	background: #cdcdcd;
-	opacity: .6;
+	opacity: .7;
 	box-shadow: 2px 2px grey;
 }
 
@@ -72,14 +72,17 @@ h2 {
 	position: absolute;
 	object-fit: fill;
 	width: auto;
-	height: 320px;
+	height: 250px;
 	max-width: 320px;
 	transition: all ease-in-out .5s;
 	top: 0;
-	left: 0;
+	margin:auto;
+	left:0;
+	right:0;
 	z-index: -1;
 	opacity: .5;
 	background-size: 100%;
+	margin-top: 70px;
 }
 
 .Card {
@@ -91,10 +94,11 @@ h2 {
 	text-align: left;
 	border-radius: 1px;
 	transition: width 0.25s;
-	height: 300px;
+	height: 290px;
 	position: relative;
 	z-index: 0;
-	background-color: #F3F5F7;
+	/* background-color: rgb(223, 246, 253); */
+	background: linear-gradient(to bottom,#fdfcfb 0%,#e2d1c3 20%)
 
 }
 .ImageBox{

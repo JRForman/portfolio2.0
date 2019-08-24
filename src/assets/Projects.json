@@ -55,7 +55,7 @@
 			"Yelp API",
 			"Fandango API"
 		],
-		"image": ""
+		"image": "scheduleme.png"
 	},
 	{
 		"name": "Burgers Man",
@@ -71,7 +71,7 @@
 		"deployment": "https://desolate-plateau-74587.herokuapp.com/",
 		"description": "An app to help you find the right dog for you.  Used to learn routes in express.",
 		"technologies": ["Express", "jQuery", "Bootstrap"],
-		"image": ""
+		"image": "FriendFinder01.png"
 	},
 	{
 		"name": "dxfAssy",
@@ -83,10 +83,10 @@
 	{
 		"name": "Captain Battle",
 		"github": "https://github.com/JRForman/CaptainBattle",
-		"deployment": "https://jrforman.github.io/Captain_Battle/",
-		"description": "Simple game using only JS and HTML.  The object of the game is to win based on the order you defete your oponents.",
+		"deployment": "https://jrforman.github.io/CaptainBattle/",
+		"description": "Simple game using only JS and HTML.  The object of the game is to win based on the order you defeat your oponents.",
 		"technologies": ["JavaScript", "HTML", "CSS"],
-		"image": ""
+		"image": "CaptainBattle.png"
 	},
 	{
 		"name": "Create Sheets",
@@ -101,7 +101,7 @@
 		"deployment": "https://jrforman.github.io/TriviaGame/",
 		"description": "Simple trivia game aimed at learning async calls.",
 		"technologies": ["HTML", "JavaScript", "CSS"],
-		"image": ""
+		"image": "firefly.png"
 	},
 	{
 		"name": "Bamazon",
@@ -109,6 +109,6 @@
 		"deployment": "",
 		"description": "Simple CRUD using MySQL.",
 		"technologies": [],
-		"image": ""
+		"image": "demo_bamazonCustomer.gif"
 	}
 ]
