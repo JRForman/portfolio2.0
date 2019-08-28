@@ -2,13 +2,16 @@
 .LandingBox {
 	width: 100vw;
 	height: 100vh;
-	background-color: #A1AFC6;
+	background: url("../../assets/Background_02.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	z-index: 100;
 	position: absolute;
 	top: 0;
 	left: 0;
 	color: white;
 	opacity: 1;
+	
 }
 
 .LandingBox img {

@@ -98,7 +98,7 @@ h2 {
 	position: relative;
 	z-index: 0;
 	/* background-color: rgb(223, 246, 253); */
-	background: linear-gradient(to bottom,#fdfcfb 0%,#e2d1c3 20%)
+	background: linear-gradient(to bottom,#BCD0DC 0%,#e2d1c3 40%);
 
 }
 .ImageBox{
@@ -118,7 +118,7 @@ h2 {
 	border-radius: 5px;
 	/* min-height: 90vh;
 	max-height: 90vh; */
-	background: #A1AFC6;
+	background: #74B3CE;
 	transition: width ease-out .2s;
 	top: 50px;
 	position: fixed;
@@ -142,7 +142,7 @@ h2 {
 .Card:hover {
 	transition: all ease-in 0.2s;
 	transform: scale(1.1);
-	background: #B5BCCE;
+	background:#BCD0DC;
 }
 
 .CardCollapsed {

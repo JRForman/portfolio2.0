@@ -23,7 +23,7 @@ class App extends Component {
 					<TransitionGroup exit={exitOn}>
 						<CSSTransition
 							key={location.key}
-							timeout={400}
+							timeout={100}
 							classNames={classes}
 
 						>

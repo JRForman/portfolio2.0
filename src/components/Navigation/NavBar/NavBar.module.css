@@ -2,16 +2,19 @@
 	display: block;
 	list-style-type: none;
 	margin: 0;
-
+	border-bottom: 2px black solid;
 	padding: 0;
 	transition: padding 3s;
 	overflow: hidden;
-	background-color: #565656;
-
+	background:rgba(80,137,145,.5);
 	width: 100%;
 	top: 0;
 	z-index: 1;
 	position: fixed;
+
+}
+.NavLinkContainer {
+	float: left;
 }
 
 .NavIcons {
@@ -42,8 +45,12 @@
 @media (max-width: 730px) {
 	.NavIcons {
 		float: left;
+		display: block;
 	}
 	.spacer {
 		height: 100px;
+	}
+	.NavLinkContainer{
+		display: block;
 	}
 }
