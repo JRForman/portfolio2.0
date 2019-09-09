@@ -3,57 +3,5 @@ body {
 	height: 100%;
 	max-height: 100%;
 	display: flex;
-	/* background: url("./assets/Background_01.jpg"); */
 	background: linear-gradient(90deg, rgba(3,28,89,1) 0%, rgba(42,12,247,1) 50%, rgba(0,212,255,1) 100%);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
-
-/* .App{
-	position: relative;
-	text-align: center;
-}
-
-.page {
-	position: absolute;
-} */
-
-/* .appear,
-.enter {
-    opacity: 0;
-    z-index: 1;
-}
-.appearActive,
-.enter.enterActive {
-    opacity: 1;
-    transition: opacity 3000ms linear 150ms;
-}
-*/
-/* .exit {
-    opacity: 0;
-} */
-/*
-.exit.exitActive {
-    opacity: 0;
-    transition: opacity 1500ms linear;
-} */
-
-
-
-
-
-
-/* .App.exitActive {
-	animation-name: shrinkToNavBar;
-	animation-duration: 5s;
-}
-
-@keyframes shrinkToNavBar {
-	0%{
-
-	}
-
-	100%{
-		height: 50px;
-	}
-} */
