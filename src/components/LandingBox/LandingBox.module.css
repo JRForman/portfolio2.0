@@ -2,7 +2,7 @@
 .LandingBox {
 	width: 100vw;
 	height: 100vh;
-	background: url("../../assets/Background_02.jpg");
+	background: linear-gradient(90deg, rgba(3,28,89,1) 0%, rgba(42,12,247,1) 50%, rgba(0,212,255,1) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	z-index: 100;
@@ -16,10 +16,11 @@
 
 .LandingBox img {
 	height: 100%;
+	width:auto;
 	/* display: block; */
 	opacity: 0.;
 	position: absolute;
-	z-index: -1;
+	z-index: 99;
 	max-width: 100vw;
 	margin: auto;
 	left:0;
@@ -38,7 +39,6 @@
 	zoom: 1.5;
 	z-index: 1;
 	display: grid;
-	
 }
 .NavIcons {
 	margin: 0;

@@ -25,16 +25,16 @@
 		"name": "Fetch",
 		"github": "https://github.com/JRForman/Fetch",
 		"description": "",
-		"technologies": ["ReactJS", "Express"],
-		"image": "fetch.png"
+		"technologies": ["ReactJS", "Express", "Node"],
+		"image": "fetch.jpg"
 	},
 	{
 		"name": "Fetch API",
 		"github": "https://github.com/JRForman/fetch_API",
 		"deployment": "https://cryptic-springs-20095.herokuapp.com/api-docs/",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus ante. Nulla laoreet sem augue. Aliquam fermentum eros ac dui blandit laoreet. Ut vel ante mi. Pellentesque finibus, est et posuere blandit, tellus tortor interdum est, ac semper diam tortor sed sem. Sed feugiat metus vitae enim pretium, ac tempor augue euismod. Donec mattis, diam nec scelerisque tempor, quam est rhoncus libero, placerat rhoncus risus urna dapibus tellus. Phasellus diam neque, pulvinar vel commodo ac, scelerisque ac tellus. Cras suscipit dolor in mi tristique, a pretium justo hendrerit. Curabitur at tempor felis. Maecenas imperdiet orci justo, vitae volutpat elit scelerisque nec.",
-		"technologies": ["Swagger", "RESTful", "API"],
-		"image": "SwaggerUI.gif"
+		"technologies": ["Swagger", "RESTful", "API", "MongoDB", "Mongoose"],
+		"image": "SwaggerUI.png"
 	},
 	{
 		"name": "ScrappyScrappy",
@@ -55,7 +55,7 @@
 			"Yelp API",
 			"Fandango API"
 		],
-		"image": "scheduleme.png"
+		"image": "scheduleme.jpg"
 	},
 	{
 		"name": "Burgers Man",
@@ -101,7 +101,7 @@
 		"deployment": "https://jrforman.github.io/TriviaGame/",
 		"description": "Simple trivia game aimed at learning async calls.",
 		"technologies": ["HTML", "JavaScript", "CSS"],
-		"image": "firefly.png"
+		"image": "firefly.jpg"
 	},
 	{
 		"name": "Bamazon",

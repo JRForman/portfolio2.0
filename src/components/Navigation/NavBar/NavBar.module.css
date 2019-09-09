@@ -6,7 +6,7 @@
 	padding: 0;
 	transition: padding 3s;
 	overflow: hidden;
-	background:rgba(80,137,145,.5);
+	background:rgba(80,137,145,.75);
 	width: 100%;
 	top: 0;
 	z-index: 1;

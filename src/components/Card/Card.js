@@ -8,31 +8,31 @@ class Card extends Component {
 		this.onCardClickHandler = this.onCardClickHandler.bind(this);
 	}
 
-
 	onCardClickHandler = () => {
-		this.setState(state => ({
-			cardActive: !state.cardActive
-		}));
+		if(this.className!==classes.codeButton){
+
+			this.setState(state => ({
+				cardActive: !state.cardActive
+			}));
+		}
 	};
-	
 
 	render() {
-		
 		try {
 			var CardImage = require(`../../assets/${this.props.image}`);
 		} catch (e) {
 			CardImage = 'https://via.placeholder.com/150';
 		}
 		var sheight;
-		if (window.innerWidth>729){
-			sheight=window.innerHeight-80;
-		}else{
-			sheight=window.innerHeight-120;
+		if (window.innerWidth > 729) {
+			sheight = window.innerHeight - 80;
+		} else {
+			sheight = window.innerHeight - 120;
 		}
 		var style = {
-			height: this.state.cardActive?sheight:"300px"
+			height: this.state.cardActive ? sheight : '300px'
 			// height: this.state.cardActive?window.innerWidth?729?window.innerHeight-80:window.innerHeight-120:"300px"
-		}
+		};
 		const techs = this.props.technologies;
 		if (this.props.name) {
 			return (
@@ -50,6 +50,7 @@ class Card extends Component {
 							: ''
 					}
 				>
+					<button className={ [classes.exitButton, classes.description].join(' ')}>X</button>
 					<h2> {this.props.name} </h2>
 					<div>
 						{techs.map(tech => (
@@ -69,11 +70,12 @@ class Card extends Component {
 						<a
 							href={this.props.github}
 							target='_blank'
+							rel="noopener noreferrer"
 							className={
 								this.props.github
 									? [classes.codeButton, classes.button].join(
 											' '
-									)
+									  )
 									: classes.hidden
 							}
 						>
@@ -82,12 +84,13 @@ class Card extends Component {
 						<a
 							href={this.props.deployment}
 							target='_blank'
+							rel="noopener noreferrer"
 							className={
 								this.props.deployment
 									? [
 											classes.deploymentButton,
 											classes.button
-									].join(' ')
+									  ].join(' ')
 									: classes.hidden
 							}
 						>
@@ -105,7 +108,6 @@ class Card extends Component {
 			return <div />;
 		}
 	}
-	
 }
 
 export default Card;

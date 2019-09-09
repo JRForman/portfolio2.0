@@ -98,7 +98,7 @@ h2 {
 	position: relative;
 	z-index: 0;
 	/* background-color: rgb(223, 246, 253); */
-	background: linear-gradient(to bottom,#BCD0DC 0%,#e2d1c3 40%);
+	background: linear-gradient(to bottom,#F1BF98 0%,#D9E5D6 40%);
 
 }
 .ImageBox{
@@ -116,8 +116,6 @@ h2 {
 	margin-bottom: 5px;
 	text-align: left;
 	border-radius: 5px;
-	/* min-height: 90vh;
-	max-height: 90vh; */
 	background: #74B3CE;
 	transition: width ease-out .2s;
 	top: 50px;
@@ -131,12 +129,26 @@ h2 {
 	margin-left:auto;
 	margin-right:auto;
 }
-.CardActive:hover {
-
-}
 
 .Card .description {
 	display: none;
+}
+
+.exitButton {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 2px;
+	top:2px;
+	background: none;
+	border: none;
+	font-display: 10px;
+}
+.exitButton:hover{
+	border: #233237 1px solid;
+	border-radius: 5px;
+	background:#D9E5D6;
+	
 }
 
 .Card:hover {

@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './LandingBox.module.css';
 // import pageClass from '../../App.css'
-import background from '../../assets/Image02.jpg';
+import background from '../../assets/coverImage.jpg'; 
 import NavItem from '../Navigation/NavBar/NavItem/NavItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
