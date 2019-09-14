@@ -186,9 +186,16 @@ h2 {
 		margin-right: auto;
 	}
 }
+
 @media (max-width: 385px) {
 	.CardActive {
 		margin-top: 85px;
 		/* max-height: 10rem; */
+	}
+}
+@media (max-width: 500px) {
+	.Card:hover {
+		transition: none;
+		transform: none;
 	}
 }
