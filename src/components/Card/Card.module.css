@@ -16,7 +16,7 @@ h2 {
 
 .button {
 	border: solid black;
-	background-color: #233237;
+	background-color: #3e505b;
 	border-radius: 10px;
 	text-decoration: none;
 	text-align: center;
@@ -26,11 +26,13 @@ h2 {
 	padding: 10px;
 	margin: 10px;
 	width: 80px;
+	box-shadow: 5px 5px #4682b4;
 }
 
 .button:hover {
 	transition: all ease-in 0.2s;
 	transform: scale(1.1);
+	box-shadow: 10px 10px 3px #4682b4;
 }
 
 .buttonContainer {

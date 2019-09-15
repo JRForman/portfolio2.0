@@ -8,26 +8,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import Loader from 'react-spinners/RingLoader';
 
 library.add(fab, fas);
 
 class LandingBox extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { imageIsReady: false };
+		this.state = { loading: true };
 	}
 	componentDidMount() {
 		const img = new Image();
 		img.src = background;
 		img.onload = () => {
-			this.setState({ imageIsReady: true });
+			this.setState({ loading: false });
 		};
 	}
 
 	render() {
-		const { imageIsReady } = this.state;
-		if (!imageIsReady) {
-			return <div>Loading...............</div>;
+	
+		if (this.state.loading) {
+			return (
+				<div className={classes.Loader}>
+					<Loader
+						css={'margin: 40px auto 0 auto; padding: 20px; vertical-align: middle'}
+						sizeUnit={'px'}
+						size={200}
+						color={'white'}
+						loading={this.state.loading}
+					/>
+					<h1>Loading, Please Stand By.....</h1>
+				</div>
+			);
 		} else {
 			return (
 				<div className={classes.LandingBox}>

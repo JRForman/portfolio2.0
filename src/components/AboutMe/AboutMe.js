@@ -14,27 +14,7 @@ class AboutMe extends Component {
 				</div>
 
 				<p >
-					My heart has always been set on figuring out how things
-					work. My father gave me a tool box when I was 5 years old.
-					He came home to every electronic toy I owned, as well as the
-					front gate, my fish tank pump, and my tricycle in pieces.
-					During the 80s and early 90s PC rush, I quickly found myself
-					fascinated with computers. At age 8, my parents bought an
-					old, Radio Shack branded, Tandy TRS-80 that I spent
-					countless hours playing on. I still remember the moment I
-					first ran “Hello World” and later making a circle that you
-					could resize, recolor, and move around the screen. At age
-					10, my mother bought an i386 to use for work keeping medical
-					records. With Windows 3.1 and MS-DOS, I spent the entire
-					summer just “playing” and figuring out how it works. A few
-					short years later, my parents purchased an i486 based
-					computer. I continued to learn and explore. In junior high,
-					I was frequently pulled out of class to help teachers with
-					computers. I was asked to attend a summer program for BASIC
-					computer programming using Apple IIe’s. Since I had my old
-					TRS-80, I was very familiar with BASIC. I ended up being a
-					teaching assistant instead of a student. The teacher asked
-					me back next summer to help with their newly acquired Macs.
+				I have always loved seeing bits of code on a screen grow to something I could play with. Starting on a RadioShack Tandy TRS-80 when I was 10, I learned how to program in BASIC. This led to a lifelong passion to learn systems, how they work, and how to make them more efficient. When I was 17, that changed. I was waiting tables to save money for college when I started working with (what I thought was) an actual programmer. I shared my joys of coding with him and he told me I couldn’t make it in the industry. “The industry is too cut-throat and a nice kid like you won’t make it” he said. I took this discouragement to heart and went off to college as a pre-med major. I did not like it. A few jobs and minor careers later, and I have found the I have used programming in every step of the way. From creating programs in VB.net that take an assembly of parts and create drawing sheets, to programming LISP commands to make drawing kitchens faster in AutoCAD, to calculating inventory needs based on projected projects. I have finally made my way back to coding, and love every second of it.
 				</p>
 			</div>
 		);

@@ -1,9 +1,15 @@
 body {
-	margin:0;
+	margin: 0;
 	height: 100%;
 	max-height: 100%;
 	max-width: 100%;
 	display: flex;
-	background: linear-gradient(90deg, rgb(36, 72, 102) 0%, rgba(70,130,180,1) 20%, rgb(216, 227, 236) 50%, rgba(70,130,180,1) 80%, rgb(36, 72, 102) 100% );
+	background: linear-gradient(
+		90deg,
+		rgb(36, 72, 102) 0%,
+		rgba(70, 130, 180, 1) 20%,
+		rgb(174, 205, 230) 50%,
+		rgba(70, 130, 180, 1) 80%,
+		rgb(36, 72, 102) 100%
+	);
 }
-
