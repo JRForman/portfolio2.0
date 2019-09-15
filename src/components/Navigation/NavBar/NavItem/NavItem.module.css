@@ -1,21 +1,23 @@
 .NavItem {
     float: left;
-    display: block;
+    /* display: block; */
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 16px;
     text-decoration: none;
     z-index:27;
-    text-shadow: 1px 1px 708090;
+    text-shadow: 2px 2px 708090;
     /* text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
-		1px 1px 0 #000; */
+        1px 1px 0 #000; */
 }
 
 .NavItem:hover{
     background-color: white;
     color:black;
-    text-shadow: none;
+}
+.active{
+    background-color: rgba(128, 128, 128, 0.651);
 }

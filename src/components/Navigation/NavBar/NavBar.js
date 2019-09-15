@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import classes from './NavBar.module.css';
 
 import NavItem from './NavItem/NavItem';
-import Headline from './Headline/Headline';
+// import Headline from './Headline/Headline';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,7 @@ class NavBar extends Component {
 		return (
 			<div id='NavBar'>
 				<ul className={classes.NavBar}>
-					<Headline />
+					
 					<div className={classes.NavLinkContainer}>
 						<NavItem link='/projects' exact>
 							Projects

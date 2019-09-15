@@ -31,9 +31,14 @@ class LandingBox extends Component {
 		} else {
 			return (
 				<div className={classes.LandingBox}>
-					<h1>Hi. I'm Jason and I like to create solutions.</h1>
 					<img src={background} alt={'me'} />
+					<h1>Hi. I'm Jason and I like to create solutions.</h1>
 					<div className={classes.linkContainer}>
+						<NavItem link='/projects' exact>
+							Projects
+						</NavItem>
+						<NavItem link='/aboutme'>About Me</NavItem>
+						<NavItem link='/other'>Other Projects</NavItem>
 						<div className={classes.NavIcons}>
 							<a
 								className={classes.NavIcon}
@@ -72,11 +77,6 @@ class LandingBox extends Component {
 								/>
 							</a>
 						</div>
-						<NavItem link='/projects' exact>
-							Projects
-						</NavItem>
-						<NavItem link='/aboutme'>About Me</NavItem>
-						<NavItem link='/other'>Other Projects</NavItem>
 					</div>
 				</div>
 			);

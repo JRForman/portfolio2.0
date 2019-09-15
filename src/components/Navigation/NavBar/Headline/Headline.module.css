@@ -1,10 +1,13 @@
 .Headline{
     color:white;
-    right:40px;
-    top: 0;
+    display: inline-block;
     text-align: center;
-    float:left;
+    /* float:left; */
+    position: sticky;
     width:250px;
+    top: 0px;
+    z-index: 5;
+    padding:0px;
 }
 .Headline:before{
     color:white;
@@ -15,10 +18,19 @@
     animation-iteration-count: infinite;
 }
 
+
 @keyframes headline {
     5% {opacity: 0;}
     10% {opacity: 1;content: '{ JSON Format  }';}
     15% {opacity: 0;}
     16% {content:'{ Jason Forman }'}
     25% {opacity: 1;}
+}
+@media(hover:none){
+    .Headline{
+        width: 100%;
+        background:rgba(80,137,145,1);
+        height:  45px;
+        margin: auto;
+    }
 }

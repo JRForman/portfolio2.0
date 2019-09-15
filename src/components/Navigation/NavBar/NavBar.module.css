@@ -1,56 +1,110 @@
 .NavBar {
-	display: block;
+
 	list-style-type: none;
 	margin: 0;
 	border-bottom: 2px black solid;
-	padding: 0;
-	transition: padding 3s;
+	padding: 0 0 0 250px;
+	/* transition: padding 3s; */
 	overflow: hidden;
 	background:rgba(80,137,145,.75);
 	width: 100%;
 	top: 0;
-	z-index: 1;
+	left:0;
+	z-index: 4;
 	position: fixed;
 
 }
-.NavLinkContainer {
+/* .NavLinkContainer {
 	float: left;
-}
+} */
 
 .NavIcons {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
+	overflow: hidden;
+
+	position: fixed;
+	right: 0px;
 }
 
 .NavIcons a {
-	float: right;
+	float: left;
 	padding: 12px;
 	color: white;
 	transition: .5s;
 }
 
 .NavIcons a:hover {
-	background-color: white;
+	/* background-color: white; */
 	color: black;
-	font-size: 200%;
+	font-size: 150%;
 	transition: .5s;
 }
 .spacer {
 	clear:both;
 	float:left;
 	width:100%;
-	height: 50px;
+	height: 10px;
 }
 
 @media (max-width: 730px) {
+
 	.NavIcons {
 		float: left;
 		display: block;
+		position: absolute;
 	}
 	.spacer {
 		height: 100px;
 	}
 	.NavLinkContainer{
-		display: block;
+		position: absolute;
+		bottom: 0px;		
+	}
+	.NavBar{
+		padding: 0;
+		height: 80px
+	}
+}
+@media(hover: none){
+	.NavBar{
+		top:auto;
+		bottom: 0px;
+		left:0;
+		background:rgba(80,137,145,1);
+		height: 45px;
+		border-bottom: none;
+		padding: none;
+		margin: none;
+	}
+	.NavLinkContainer {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.spacer{
+		height: 0;
+	}
+	.NavIcons{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		bottom: 45px;
+	}
+	.NavItem{
+		width:40%;
+	}
+	.NavIcons a {
+		border:black 1px solid;
+		border-radius: 5px;
+		background-color: rgba(128, 128, 128, 0.699);
+
+	}
+	.NavIcons a:hover{
+		transition: none;
+		font-size: 100%;
+		color:white;
 	}
 }

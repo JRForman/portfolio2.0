@@ -1,10 +1,3 @@
-/* .h2 {
-	padding: 1px 1px;
-	margin: 1px 1px;
-	width: 100%;
-	z-index: 1;
-	position: static;
-} */
 p {
 	margin: 5px;
 	width: 100%;
@@ -41,9 +34,6 @@ h2 {
 }
 
 .buttonContainer {
-	/* position: absolute;
-	bottom: 0;
-	left:0; */
 	width: 100%;
 	animation-name: fadeIn;
 	animation-duration: 3s;
@@ -63,9 +53,12 @@ h2 {
 	transition: all ease-in-out .5s;
 	object-fit: contain;
 	flex: 1;
-	margin: 1rem;
+	margin: auto;
+	padding: 0px;
 	overflow: hidden;
 	height: 200px;	
+	min-width: 200px;
+	min-height: 200px;
 }
 
 .Card img {
@@ -94,10 +87,9 @@ h2 {
 	text-align: left;
 	border-radius: 1px;
 	transition: width 0.25s;
-	height: 290px;
+	height: 300px;
 	position: relative;
 	z-index: 0;
-	/* background-color: rgb(223, 246, 253); */
 	background: linear-gradient(to bottom,#F1BF98 0%,#D9E5D6 40%);
 
 }
@@ -109,7 +101,7 @@ h2 {
 
 .CardActive {
 	width: calc(100% - 30px);
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	border: solid black 2px;
 	padding: 5px;
 	margin-top: 5px;
@@ -118,16 +110,18 @@ h2 {
 	border-radius: 5px;
 	background: #74B3CE;
 	transition: width ease-out .2s;
-	top: 50px;
 	position: fixed;
+	top: 50px;
 	display: flex;
 	flex-direction: column;
-	z-index: 1;
-	overflow: hidden;
+	z-index: 5;
+	overflow: auto;
 	left:0;
 	right:0;
 	margin-left:auto;
 	margin-right:auto;
+	height: calc(100%-30px);
+	outline: 9999px solid rgba(0, 0, 0, 0.5);
 }
 
 .Card .description {
@@ -179,12 +173,6 @@ h2 {
 		margin-top: 50px;
 		/* max-height: 80vh; */
 	}
-	.Card {
-		left:0;
-		right:0;
-		margin-left: auto;
-		margin-right: auto;
-	}
 }
 
 @media (max-width: 385px) {
@@ -193,9 +181,16 @@ h2 {
 		/* max-height: 10rem; */
 	}
 }
-@media (max-width: 500px) {
+@media (hover: none) {
 	.Card:hover {
 		transition: none;
 		transform: none;
+	}
+	.CardActive{
+		margin-top: 0px;
+		height: 100%;
+	}
+	.exitButton {
+		display: none;
 	}
 }
