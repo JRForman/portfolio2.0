@@ -21,6 +21,7 @@
 	height: 100%;
 	width: auto;
 	/* display: block; */
+	object-fit: cover;
 	position: absolute;
 	max-width: 100vw;
 	margin: auto;
@@ -31,8 +32,9 @@
 }
 h1 {
 	margin: auto;
+	text-align: center;
 	font-size: 2em;
-	padding: 180px 40px 10px 100px;
+	padding: 25vh 10px 10px 10px;
 	position: relative;
 	z-index: 100;
 	color: white;
@@ -51,12 +53,14 @@ h1 {
 	margin: 2px 2px 2px 2px;
 	background: rgba(70, 130, 180, 0.7);
 	font-size: 0.9em;
-	border-radius: 5px;
+	text-shadow: 2px 2px rgba(62, 80, 91, 0.9); 
+	/* border-radius: 5px; */
 
 }
 .NavIcons {
 	margin: 0;
 	padding: 0;
+
 }
 
 .NavIcons a {
@@ -65,7 +69,8 @@ h1 {
 	color: white;
 	transition: 0.5s;
 	font-size: 0.8em;
-	border-radius: 5px;
+
+	/* border-radius: 5px; */
 	/* border: black 1px solid; */
 }
 
@@ -94,5 +99,13 @@ h1 {
 @media (max-width: 700px) {
 	h1 {
 		font-size: 1.5em;
+	}
+}
+@media(hover:none){
+	.NavIcons a:hover {
+		color: white;
+		background: rgba(70, 130, 180, 0.7);
+		font-size:0.8em;
+		transition: none;
 	}
 }

@@ -3,10 +3,11 @@
     /* display: block; */
     color: white;
     text-align: center;
-    padding: 13px 16px;
+    padding: 13px 13px;
     text-decoration: none;
     z-index:27;
     text-shadow: 2px 2px 708090;
+    white-space: nowrap;
     /* text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -17,7 +18,9 @@
 .NavItem:hover{
     background-color: white;
     color:black;
+    text-shadow: none;
 }
 .active{
     background-color: rgba(62,80,91, 0.651);
 }
+

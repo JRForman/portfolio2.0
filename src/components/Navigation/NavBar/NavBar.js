@@ -12,19 +12,46 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 library.add(fab, fas);
 
 class NavBar extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { ExternalNav: false };
+		this.ExternalNavButton = this.ExternalNavButton.bind(this);
+	}
+
+	ExternalNavButton(){
+		const NavIconContainer = document.getElementById("NavIconContainer");
+		const NavIconButton = document.getElementById("NavIconButton");
+		if (this.state.ExternalNav === true){
+			this.setState({ExternalNav: false});
+			NavIconContainer.style.display = "none"
+			NavIconButton.style.background = "inherit"
+		}else{
+			this.setState({ExternalNav: true});
+			NavIconContainer.style.display = "flex"
+			NavIconButton.style.background = "#153b50"
+
+		}
+	}
+
 	render() {
 		return (
 			<div id='NavBar'>
 				<ul className={classes.NavBar}>
-					
 					<div className={classes.NavLinkContainer}>
 						<NavItem link='/projects' exact>
 							Projects
 						</NavItem>
 						<NavItem link='/aboutme'>About Me</NavItem>
 						<NavItem link='/other'>Other Projects</NavItem>
+						<button className={classes.NavIconButton} id="NavIconButton" onClick={this.ExternalNavButton}>
+						<FontAwesomeIcon
+							icon={['fas', 'id-card']}
+							size='lg'
+							className='NavIcon'
+						/>
+					</button>
 					</div>
-					<div className={classes.NavIcons}>
+					<div className={classes.NavIcons} id="NavIconContainer">
 						<a
 							className={classes.NavIcon}
 							title='LinkedIn'
@@ -48,7 +75,7 @@ class NavBar extends Component {
 							<FontAwesomeIcon
 								icon={['fab', 'github']}
 								size='lg'
-								className='NavIcon'
+								className={classes.NavIcon}
 							/>
 						</a>
 						<a
@@ -65,6 +92,7 @@ class NavBar extends Component {
 							/>
 						</a>
 					</div>
+					
 				</ul>
 				<div className={classes.spacer} />
 			</div>

@@ -5,6 +5,7 @@
     background: inherit;
     text-align: left;
     display: flex;
+    flex-direction: row;
     margin: 20px auto auto auto;
     padding:20px;
 }
@@ -12,10 +13,15 @@
     width: 40%;
     object-fit: fill
 }
-img{
-    display: inline-block;
+.slides{
+    /* display: none; */
     width:100%;
 }
-p{
 
+/* img{
+    display: inline-block;
+    width:100%;
+} */
+p{
+    margin:10px;
 }

@@ -1,6 +1,6 @@
 p {
 	margin: 5px;
-	width: 100%;
+	/* width: 90%; */
 }
 h2 {
 	text-shadow: 1.5px 1.5px grey;
@@ -56,11 +56,14 @@ h2 {
 	object-fit: contain;
 	flex: 1;
 	margin: auto;
-	padding: 0px;
+	/* padding: 5px; */
 	overflow: hidden;
 	height: 200px;	
 	min-width: 200px;
 	min-height: 200px;
+	width: 100%;
+	height: auto;
+
 }
 
 .Card img {
