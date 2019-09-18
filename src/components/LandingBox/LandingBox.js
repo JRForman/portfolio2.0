@@ -46,11 +46,11 @@ class LandingBox extends Component {
 					<img src={background} alt={'me'} />
 					<h1>Hi. I'm Jason and I like to create solutions.</h1>
 					<div className={classes.linkContainer}>
-						<NavItem link='/projects' exact>
+						<NavItem link='/Projects' exact>
 							Projects
 						</NavItem>
-						<NavItem link='/aboutme'>About Me</NavItem>
-						<NavItem link='/other'>Other Projects</NavItem>
+						<NavItem link='/AboutMe'>About Me</NavItem>
+						<NavItem link='/Solutions'>Solutions</NavItem>
 						<div className={classes.NavIcons}>
 							<a
 								className={classes.NavIcon}

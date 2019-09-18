@@ -1,17 +1,20 @@
 .AboutMe{
-    z-index: 5;
     color: black;
     font-size: 1.5em;
     background: inherit;
     text-align: left;
-    display: flex;
+    display: block;
     flex-direction: row;
-    margin: 20px auto auto auto;
-    padding:20px;
+    margin: auto;
+    /* padding:20px; */
+    width:95%;
 }
 .imageContainer{
-    width: 40%;
-    object-fit: fill
+    width: 60%;
+    object-fit: fill;
+    min-width:300px;
+    /* display: block; */
+    margin: auto;
 }
 .slides{
     /* display: none; */

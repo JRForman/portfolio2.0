@@ -6,6 +6,7 @@ import NavBar from './components/Navigation/NavBar/NavBar';
 import LandingBox from './components/LandingBox/LandingBox';
 import AboutMe from './components/AboutMe/AboutMe';
 import Headline from './components/Navigation/NavBar/Headline/Headline';
+import Solutions from './components/Solutions/Solutions';
 import { Route, withRouter } from 'react-router-dom';
 
 class App extends Component {
@@ -34,11 +35,12 @@ class App extends Component {
 					)}
 				/>
 				<Route
-					path='/Other'
+					path='/Solutions'
 					render={props => (
 						<>
 							<Headline />
 							<NavBar />
+							<Solutions/>
 						</>
 					)}
 				/>

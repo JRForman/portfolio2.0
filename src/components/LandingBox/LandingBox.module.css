@@ -32,9 +32,9 @@
 }
 h1 {
 	margin: auto;
-	text-align: center;
+	text-align: left;
 	font-size: 2em;
-	padding: 25vh 10px 10px 10px;
+	padding: 25vh 10px 10px 50px;
 	position: relative;
 	z-index: 100;
 	color: white;
@@ -53,14 +53,12 @@ h1 {
 	margin: 2px 2px 2px 2px;
 	background: rgba(70, 130, 180, 0.7);
 	font-size: 0.9em;
-	text-shadow: 2px 2px rgba(62, 80, 91, 0.9); 
+	text-shadow: 2px 2px rgba(62, 80, 91, 0.9);
 	/* border-radius: 5px; */
-
 }
 .NavIcons {
 	margin: 0;
 	padding: 0;
-
 }
 
 .NavIcons a {
@@ -92,7 +90,7 @@ h1 {
 	background: rgb(36, 72, 102);
 	vertical-align: middle;
 }
-.Loader h1{
+.Loader h1 {
 	padding: 50px;
 }
 
@@ -101,11 +99,15 @@ h1 {
 		font-size: 1.5em;
 	}
 }
-@media(hover:none){
+@media (hover: none) {
 	.NavIcons a:hover {
 		color: white;
 		background: rgba(70, 130, 180, 0.7);
-		font-size:0.8em;
+		font-size: 0.8em;
 		transition: none;
+	}
+	h1 {
+		text-align: center;
+		padding: 25vh 10px 10px 10px;
 	}
 }
