@@ -1,6 +1,6 @@
 .LandingBox {
 	width: 100%;
-	height: 100%;
+	height:100vh;
 	background: linear-gradient(
 		90deg,
 		rgb(36, 72, 102) 3%,
