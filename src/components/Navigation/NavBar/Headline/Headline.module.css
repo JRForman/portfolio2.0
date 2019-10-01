@@ -29,7 +29,9 @@
 @media(hover:none){
     .Headline{
         width: 100vw;
-        background:rgba(80,137,145,1);
+        background: rgba(18, 80, 107, 1);
+        border-bottom: 1px solid black;
+        /* background:rgba(80,137,145,1); */
         height:  45px;
         margin: auto;
     }

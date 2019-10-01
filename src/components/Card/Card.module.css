@@ -125,7 +125,6 @@ h2 {
 	right:0;
 	margin-left:auto;
 	margin-right:auto;
-	height: calc(100%-30px);
 	outline: 9999px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -194,7 +193,6 @@ h2 {
 	}
 	.CardActive{
 		margin-top: 0px;
-		height: 100%;
 	}
 	/* .exitButton {
 		display: none;

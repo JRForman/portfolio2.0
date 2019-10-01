@@ -32,7 +32,7 @@ class Card extends Component {
 		if (window.innerWidth > 729) {
 			sheight = window.innerHeight - 80;
 		} else {
-			sheight = window.innerHeight - 120;
+			sheight = window.innerHeight -100;
 		}
 		var style = {
 			height: this.state.cardActive ? sheight : '300px'
