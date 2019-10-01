@@ -14,7 +14,17 @@ class App extends Component {
 		return (
 			<div className={classes.App}>
 				<Switch>
-					<Route path='/' exact component={LandingBox} />
+					<Route
+						path='/'
+						exact
+						render={props => (
+							<>
+								<Headline />
+								<NavBar />
+								<LandingBox />
+							</>
+						)}
+					/>
 					<Route
 						path='/Projects'
 						render={props => (

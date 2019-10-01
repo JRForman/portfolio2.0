@@ -9,7 +9,8 @@
 		rgba(70, 130, 180, 1) 80%,
 		rgb(36, 72, 102) 97%
 	);
-	z-index: 100;
+
+	/* z-index: 100; */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -18,25 +19,28 @@
 }
 
 .LandingBox img {
-	height: 100%;
+	/* height: 100vh; */
+	height: calc(var(--vh, 1vh) * 100 - 60px);
 	width: auto;
-	/* display: block; */
-	object-fit: cover;
+	/* object-fit: cover; */
 	position: absolute;
 	max-width: 100vw;
 	margin: auto;
 	left: 0;
 	right: 0;
-	top: 0;
-	z-index: -1;
+	top: 50px;
+	z-index: 1;
 }
 .welcomeMessage {
-	margin: auto;
-	text-align: left;
+	/* margin: auto; */
+	/* text-align: left; */
 	font-size: 2em;
-	padding: 25vh 10px 10px 50px;
+	/* padding: 28vh 10px 10px 50px; */
+	width:80vw;
 	position: relative;
-	z-index: 100;
+	left: 20vw;
+	top: 40vh;
+	z-index: 1;
 	color: white;
 	text-shadow: 3px 2px rgba(62, 80, 91, 0.9);
 }
@@ -108,6 +112,7 @@
 	}
 	.welcomeMessage {
 		text-align: center;
-		padding: 25vh 10px 10px 10px;
+		/* padding: 40vh 10px 10px 10px; */
+		left:10vw;
 	}
 }

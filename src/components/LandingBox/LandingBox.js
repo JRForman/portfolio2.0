@@ -46,7 +46,7 @@ class LandingBox extends Component {
 				<div className={classes.LandingBox}>
 					<img src={background} alt={'me'} />
 					<h1 className={classes.welcomeMessage}>Hi. I'm Jason and I like to create solutions.</h1>
-					<div className={classes.linkContainer}>
+					{/* <div className={classes.linkContainer}>
 						<NavItem link='/Projects' exact>
 							Projects
 						</NavItem>
@@ -90,7 +90,7 @@ class LandingBox extends Component {
 								/>
 							</a>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			);
 		}
