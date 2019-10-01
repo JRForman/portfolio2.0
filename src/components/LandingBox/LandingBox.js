@@ -12,6 +12,7 @@ import Loader from 'react-spinners/RingLoader';
 
 library.add(fab, fas);
 
+// Todo: Animate SVG headline.
 class LandingBox extends Component {
 	constructor(props) {
 		super(props);
@@ -44,7 +45,7 @@ class LandingBox extends Component {
 			return (
 				<div className={classes.LandingBox}>
 					<img src={background} alt={'me'} />
-					<h1>Hi. I'm Jason and I like to create solutions.</h1>
+					<h1 className={classes.welcomeMessage}>Hi. I'm Jason and I like to create solutions.</h1>
 					<div className={classes.linkContainer}>
 						<NavItem link='/Projects' exact>
 							Projects

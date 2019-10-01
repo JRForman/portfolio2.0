@@ -40,7 +40,7 @@ class NavBar extends Component {
 
 	render() {
 		return (
-			<div id='NavBar'>
+			<nav id='NavBar'>
 				<ul className={classes.NavBar}>
 					<div className={classes.NavLinkContainer}>
 						<NavItem link='/Projects' exact>
@@ -103,7 +103,7 @@ class NavBar extends Component {
 					</div>
 				</ul>
 				<div className={classes.spacer} />
-			</div>
+			</nav>
 		);
 	}
 }

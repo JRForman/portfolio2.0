@@ -30,7 +30,7 @@
 	top: 0;
 	z-index: -1;
 }
-h1 {
+.welcomeMessage {
 	margin: auto;
 	text-align: left;
 	font-size: 2em;
@@ -38,7 +38,7 @@ h1 {
 	position: relative;
 	z-index: 100;
 	color: white;
-	text-shadow: 2px 2px rgba(62, 80, 91, 0.9);
+	text-shadow: 3px 2px rgba(62, 80, 91, 0.9);
 }
 .linkContainer {
 	float: right;
@@ -95,7 +95,7 @@ h1 {
 }
 
 @media (max-width: 700px) {
-	h1 {
+	.welcomeMessage {
 		font-size: 1.5em;
 	}
 }
@@ -106,7 +106,7 @@ h1 {
 		font-size: 0.8em;
 		transition: none;
 	}
-	h1 {
+	.welcomeMessage {
 		text-align: center;
 		padding: 25vh 10px 10px 10px;
 	}

@@ -6,11 +6,16 @@ class Card extends Component {
 		super(props);
 		this.state = { cardActive: false };
 		this.onCardClickHandler = this.onCardClickHandler.bind(this);
+		this.keycount = 0;
+		this.getKey = this.getKey.bind(this);
+	}
+
+	getKey() {
+		return this.keycount++;
 	}
 
 	onCardClickHandler = () => {
-		if(this.className!==classes.codeButton){
-
+		if (this.className !== classes.codeButton) {
 			this.setState(state => ({
 				cardActive: !state.cardActive
 			}));
@@ -36,7 +41,7 @@ class Card extends Component {
 		const techs = this.props.technologies;
 		if (this.props.name) {
 			return (
-				<div
+				<article
 					className={
 						this.state.cardActive
 							? classes.CardActive
@@ -50,11 +55,23 @@ class Card extends Component {
 							: ''
 					}
 				>
-					<button className={ [classes.exitButton, classes.description].join(' ')}>X</button>
+					<button
+						className={[
+							classes.exitButton,
+							classes.description
+						].join(' ')}
+					>
+						X
+					</button>
 					<h2> {this.props.name} </h2>
 					<div>
 						{techs.map(tech => (
-							<h4 className={classes.techTags}>{tech}</h4>
+							<h4
+								className={classes.techTags}
+								key={this.getKey()}
+							>
+								{tech}
+							</h4>
 						))}
 					</div>
 					<div className={classes.description}>
@@ -70,12 +87,10 @@ class Card extends Component {
 						<a
 							href={this.props.github}
 							target='_blank'
-							rel="noopener noreferrer"
+							rel='noopener noreferrer'
 							className={
 								this.props.github
-									? [classes.codeButton, classes.button].join(
-											' '
-									  )
+									? [classes.codeButton, classes.button].join(' ')
 									: classes.hidden
 							}
 						>
@@ -84,7 +99,7 @@ class Card extends Component {
 						<a
 							href={this.props.deployment}
 							target='_blank'
-							rel="noopener noreferrer"
+							rel='noopener noreferrer'
 							className={
 								this.props.deployment
 									? [
@@ -102,10 +117,10 @@ class Card extends Component {
 						src={CardImage}
 						alt={[this.props.name, 'Image'].join(' ')}
 					/>
-				</div>
+				</article>
 			);
 		} else {
-			return <div />;
+			return null;
 		}
 	}
 }
