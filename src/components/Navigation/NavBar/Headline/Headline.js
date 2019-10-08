@@ -8,7 +8,8 @@ import classes from './Headline.module.css';
 const Headline = ()=> {
     return (
         <NavLink
-			to="/"
+            to="/"
+            title='Landing Page'
 			exact		>
             <div className={classes.Headline}></div>
 
