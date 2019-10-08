@@ -32,7 +32,7 @@ class NavBar extends Component {
 		} else {
 			this.setState({ ExternalNav: true });
 			NavIconContainer.style.display = 'flex';
-			NavIconButton.style.background = '#153b50';
+			NavIconButton.style.background = '#3e505b';
 			NavIconContainer.style.transition = 'transform .5s ease-out'
 			NavIconContainer.style.transform = ' translateX(0px)'
 		}
@@ -41,13 +41,13 @@ class NavBar extends Component {
 	render() {
 		return (
 			<nav id='NavBar'>
-				<ul className={classes.NavBar}>
+				<div className={classes.NavBar}>
 					<div className={classes.NavLinkContainer}>
-						<NavItem link='/Projects' exact>
+						<NavItem link='/Projects' title='Projects' exact>
 							Projects
 						</NavItem>
-						<NavItem link='/AboutMe'>About Me</NavItem>
-						<NavItem link='/Solutions'>Solutions</NavItem>
+						<NavItem link='/AboutMe' title='About Me'>About Me</NavItem>
+						<NavItem link='/Solutions' title ='Solutions'>Solutions</NavItem>
 						<button
 							className={classes.NavIconButton}
 							id='NavIconButton'
@@ -101,7 +101,7 @@ class NavBar extends Component {
 							/>
 						</a>
 					</div>
-				</ul>
+				</div>
 				<div className={classes.spacer} />
 			</nav>
 		);
