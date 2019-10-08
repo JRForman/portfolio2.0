@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import classes from './LandingBox.module.css';
 // import pageClass from '../../App.css'
 import background from '../../assets/coverImage.jpg';
-import NavItem from '../Navigation/NavBar/NavItem/NavItem';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
+// import NavItem from '../Navigation/NavBar/NavItem/NavItem';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { library } from '@fortawesome/fontawesome-svg-core';
 import Loader from 'react-spinners/RingLoader';
 
-library.add(fab, fas);
+// library.add(fab, fas);
 
 // Todo: Animate SVG headline.
 class LandingBox extends Component {
