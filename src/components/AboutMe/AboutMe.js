@@ -6,17 +6,14 @@ class AboutMe extends Component {
 	render() {
 		return (
 			<div className={classes.AboutMe}>
+				<div className={classes.imageContainer}>
+					<img key='family' src={family} alt='Forman Family'></img>
+				</div>
 				<main>
-					<div className={classes.imageContainer}>
-						<img
-							key='family'
-							src={family}
-							alt='Forman Family'
-						></img>
-					</div>
 					<article>
 						<h3>What I Can Do For You</h3>
-						<p></p>
+						<p>
+When it comes to work and projects I Excel at learning to tech, practices in a timely manner and exemplified by this project and this project. Any company I work for can count on my ability and know that when hiring me they are hiring someone who strives in stressful challenging environments that understands noone knows all the answers and who is capable of finding them all to provide an elegant souloutuon to. A timely manner.</p>
 					</article>
 					<article>
 						<h3>My Story</h3>

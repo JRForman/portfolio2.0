@@ -1,11 +1,10 @@
 .Projects {
     width: 100%;
-    /* height: calc(var(--vh, 1vh) * 100); */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    background: inherit;
     margin: auto;
     	background: linear-gradient(
 		90deg,
@@ -16,7 +15,7 @@
 		rgb(36, 72, 102) 100%
     );
     /* background-position: 0; */
-
+    /* background-attachment: fixed; */
 }
 
 @media(hover:none){
