@@ -13,48 +13,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className={classes.App}>
+				<Headline />
+				<NavBar />
 				<Switch>
-					<Route
-						path='/'
-						exact
-						render={props => (
-							<>
-								<Headline />
-								<NavBar />
-								<LandingBox />
-							</>
-						)}
-					/>
-					<Route
-						path='/Projects'
-						render={props => (
-							<>
-								<Headline />
-								<NavBar />
-								<Projects />
-							</>
-						)}
-					/>
-					<Route
-						path='/AboutMe'
-						render={props => (
-							<>
-								<Headline />
-								<NavBar />
-								<AboutMe />
-							</>
-						)}
-					/>
-					<Route
-						path='/Solutions'
-						render={props => (
-							<>
-								<Headline />
-								<NavBar />
-								<Solutions />
-							</>
-						)}
-					/>
+					{/* <Route path='/' exact component={LandingBox} /> */}
+					<Route path='/Projects' component={Projects} />
+					<Route path='/AboutMe' component={AboutMe} />
+					<Route path='/Solutions' component={Solutions} />
 					<Route component={LandingBox} />
 				</Switch>
 			</div>
