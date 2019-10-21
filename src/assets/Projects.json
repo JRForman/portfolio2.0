@@ -11,7 +11,7 @@
 		"name": "Career Center",
 		"github": "https://github.com/JRForman/Project_2",
 		"deployment": "https://mysterious-cliffs-26268.herokuapp.com/",
-		"description": "Project where students can research College vs trade school and other options",
+		"description": "Project where students can research College vs trade school and other options. ",
 		"technologies": [
 			"Express",
 			"MySQL",
@@ -24,7 +24,7 @@
 	{
 		"name": "Fetch",
 		"github": "https://github.com/JRForman/Fetch",
-		"description": "",
+		"description": "Project for finding pet friendly restaurants, bars, and other public locations.",
 		"technologies": ["ReactJS", "Express", "Node"],
 		"image": "fetch.jpg"
 	},
@@ -32,7 +32,7 @@
 		"name": "Fetch API",
 		"github": "https://github.com/JRForman/fetch_API",
 		"deployment": "https://cryptic-springs-20095.herokuapp.com/api-docs/",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus ante. Nulla laoreet sem augue. Aliquam fermentum eros ac dui blandit laoreet. Ut vel ante mi. Pellentesque finibus, est et posuere blandit, tellus tortor interdum est, ac semper diam tortor sed sem. Sed feugiat metus vitae enim pretium, ac tempor augue euismod. Donec mattis, diam nec scelerisque tempor, quam est rhoncus libero, placerat rhoncus risus urna dapibus tellus. Phasellus diam neque, pulvinar vel commodo ac, scelerisque ac tellus. Cras suscipit dolor in mi tristique, a pretium justo hendrerit. Curabitur at tempor felis. Maecenas imperdiet orci justo, vitae volutpat elit scelerisque nec.",
+		"description": "This is an ancillary project I wrote for my bootcamp groups Fetch project.  The goal of this was to provide an API for 3rd parties to access, add, and use data from the Fetch website.",
 		"technologies": ["Swagger", "RESTful", "API", "MongoDB", "Mongoose"],
 		"image": "SwaggerUI.png"
 	},
@@ -58,18 +58,10 @@
 		"image": "scheduleme.jpg"
 	},
 	{
-		"name": "Burgers Man",
-		"github": "https://github.com/JRForman/burger",
-		"deployment": "https://sleepy-atoll-80168.herokuapp.com/",
-		"description": "Simple webapp to demostrate handlebars and MySQL",
-		"technologies": ["Node", "Express", "Handlebars", "MySQL"],
-		"image": "Burgers.png"
-	},
-	{
 		"name": "Friend Finder",
 		"github": "https://github.com/JRForman/friendFinder",
 		"deployment": "https://desolate-plateau-74587.herokuapp.com/",
-		"description": "An app to help you find the right dog for you.  Used to learn routes in express.",
+		"description": "A page to help you find the right dog for you.  Used to learn routes in express.",
 		"technologies": ["Express", "jQuery", "Bootstrap"],
 		"image": "FriendFinder01.png"
 	},
@@ -92,7 +84,7 @@
 		"name": "Create Sheets",
 		"github": "https://github.com/JRForman/createSheets",
 		"description": "Create drawing sheets from Autodesk Inventor assemblies.",
-		"technologies": ["iLogic", "Autodesk Inventor",".NET","C#"],
+		"technologies": ["iLogic", "Autodesk Inventor", ".NET", "C#"],
 		"image": ""
 	},
 	{
@@ -102,6 +94,14 @@
 		"description": "Simple trivia game aimed at learning async calls.",
 		"technologies": ["HTML", "JavaScript", "CSS"],
 		"image": "firefly.jpg"
+	},
+	{
+		"name": "Burgers Man",
+		"github": "https://github.com/JRForman/burger",
+		"deployment": "https://sleepy-atoll-80168.herokuapp.com/",
+		"description": "Simple page to demostrate handlebars and MySQL",
+		"technologies": ["Node", "Express", "Handlebars", "MySQL"],
+		"image": "Burgers.png"
 	},
 	{
 		"name": "Bamazon",
