@@ -12,8 +12,16 @@ class AboutMe extends Component {
 				<main>
 					<article>
 						<h3>What I Can Do For You</h3>
+
 						<p>
-When it comes to work and projects I Excel at learning to tech, practices in a timely manner and exemplified by this project and this project. Any company I work for can count on my ability and know that when hiring me they are hiring someone who strives in stressful challenging environments that understands noone knows all the answers and who is capable of finding them all to provide an elegant souloutuon to. A timely manner.</p>
+							When it comes to work and projects alike, I excel at
+							learning and then applying solutions. Any company I
+							work for can count on my ability to adapt. They will
+							know I am someone who thrives in stressful,
+							challenging environments while understanding no one
+							knows all of the answers. I will find them an
+							elegant solution in a timely manner.
+						</p>
 					</article>
 					<article>
 						<h3>My Story</h3>

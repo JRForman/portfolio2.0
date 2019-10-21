@@ -57,7 +57,7 @@ p {
 	margin: 10px;
 }
 
-@media (hover: none) {
+@media (hover: none), (max-width: 900px) {
 	.imageContainer {
 		padding: 5px 0 5px 0;
 		width: 100vw;
@@ -78,6 +78,7 @@ p {
 		margin-right: auto;
 		box-shadow: none;
 		width: 100vw;
+		overflow: hidden;
 	}
 	.AboutMe {
 		margin-bottom: 50px;
