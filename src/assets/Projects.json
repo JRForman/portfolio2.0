@@ -8,6 +8,14 @@
 		"image": ""
 	},
 	{
+		"name": "Personal Webiste",
+		"github": "https://github.com/JRForman/portfolio2.0",
+		"deployment": "https://www.jrforman.com/",
+		"description": "This website! Bootstrapped with create-react-app and deployed on AWS.",
+		"technologies": ["ReactJS", "AWS", "Amplify"],
+		"image": "jrforman.jpg"
+	},
+	{
 		"name": "Career Center",
 		"github": "https://github.com/JRForman/Project_2",
 		"deployment": "https://mysterious-cliffs-26268.herokuapp.com/",
