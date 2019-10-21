@@ -19,8 +19,7 @@ class AboutMe extends Component {
 							work for can count on my ability to adapt. They will
 							know I am someone who thrives in stressful,
 							challenging environments while understanding no one
-							knows all of the answers. I will find them an
-							elegant solution in a timely manner.
+							knows all of the answers.
 						</p>
 					</article>
 					<article>
