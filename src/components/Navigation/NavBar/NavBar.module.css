@@ -6,7 +6,7 @@
 	/* transition: padding 3s; */
 	overflow: hidden;
 	background: rgba(18, 80, 107, 1);
-	width: 100%;
+	width: 100vw;
 	top: 0;
 	left: 0;
 	z-index: 4;
@@ -75,20 +75,22 @@
 @media (hover: none) {
 	.NavBar {
 		top: auto;
-		bottom: 0px;
 		/* background: rgba(80, 137, 145, 1); */
 		height: 45px;
 		border-bottom: none;
 		padding: 0;
-		margin: auto;
+		left:0px;
 		border-top: 1px solid black;
-
+		position: fixed;
+		bottom: 0px;
 	}
 	.NavLinkContainer {
-		width: 100%;
+		width: 100vw;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		position: fixed;
+		bottom:0px;
 	}
 
 	.spacer {
