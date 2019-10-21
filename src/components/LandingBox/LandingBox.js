@@ -3,15 +3,16 @@ import React, { Component } from 'react';
 import classes from './LandingBox.module.css';
 // import pageClass from '../../App.css'
 import background from '../../assets/coverImage.jpg';
-import NavItem from '../Navigation/NavBar/NavItem/NavItem';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
+// import NavItem from '../Navigation/NavBar/NavItem/NavItem';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { library } from '@fortawesome/fontawesome-svg-core';
 import Loader from 'react-spinners/RingLoader';
 
-library.add(fab, fas);
+// library.add(fab, fas);
 
+// Todo: Animate SVG headline.
 class LandingBox extends Component {
 	constructor(props) {
 		super(props);
@@ -44,13 +45,13 @@ class LandingBox extends Component {
 			return (
 				<div className={classes.LandingBox}>
 					<img src={background} alt={'me'} />
-					<h1>Hi. I'm Jason and I like to create solutions.</h1>
-					<div className={classes.linkContainer}>
-						<NavItem link='/projects' exact>
+					<h1 className={classes.welcomeMessage}>Hi. I'm Jason and I like to create solutions.</h1>
+					{/* <div className={classes.linkContainer}>
+						<NavItem link='/Projects' exact>
 							Projects
 						</NavItem>
-						<NavItem link='/aboutme'>About Me</NavItem>
-						<NavItem link='/other'>Other Projects</NavItem>
+						<NavItem link='/AboutMe'>About Me</NavItem>
+						<NavItem link='/Solutions'>Solutions</NavItem>
 						<div className={classes.NavIcons}>
 							<a
 								className={classes.NavIcon}
@@ -89,7 +90,7 @@ class LandingBox extends Component {
 								/>
 							</a>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			);
 		}

@@ -1,18 +1,16 @@
 .NavBar {
-
 	list-style-type: none;
 	margin: 0;
 	border-bottom: 2px black solid;
 	padding: 0 0 0 250px;
 	/* transition: padding 3s; */
 	overflow: hidden;
-	background:rgba(80,137,145,.75);
-	width: 100%;
+	background: rgba(18, 80, 107, 1);
+	width: 100vw;
 	top: 0;
-	left:0;
+	left: 0;
 	z-index: 4;
 	position: fixed;
-
 }
 /* .NavLinkContainer {
 	float: left;
@@ -31,34 +29,32 @@
 	float: left;
 	padding: 12px;
 	color: white;
-	transition: .5s;;
-
+	transition: 0.5s;
 }
 
 .NavIcons a:hover {
 	/* background-color: white; */
 	color: black;
 	font-size: 150%;
-	transition: .5s;
+	transition: 0.5s;
 }
 .spacer {
-	clear:both;
-	float:left;
-	width:100%;
+	clear: both;
+	float: left;
+	width: 100%;
 	height: 10px;
 }
-.NavIconButton{
+.NavIconButton {
 	padding: 14px;
 	color: white;
 	background: none;
 	display: none;
 	z-index: 6;
 	outline: none;
-	border:none;
+	border: none;
 }
 
 @media (max-width: 730px) {
-
 	.NavIcons {
 		float: left;
 		display: block;
@@ -67,58 +63,62 @@
 	.spacer {
 		height: 100px;
 	}
-	.NavLinkContainer{
+	.NavLinkContainer {
 		position: absolute;
-		bottom: 0px;		
+		bottom: 0px;
 	}
-	.NavBar{
+	.NavBar {
 		padding: 0;
-		height: 80px
+		height: 80px;
 	}
 }
-@media(hover: none){
-	.NavBar{
-		top:auto;
-		bottom: 0px;
-		background:rgba(80,137,145,1);
+@media (hover: none) {
+	.NavBar {
+		top: auto;
+		/* background: rgba(80, 137, 145, 1); */
 		height: 45px;
 		border-bottom: none;
 		padding: 0;
-		margin: auto;
+		left:0px;
+		border-top: 1px solid black;
+		position: fixed;
+		bottom: 0px;
 	}
 	.NavLinkContainer {
-		width: 100%;
+		width: 100vw;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		position: fixed;
+		bottom:0px;
 	}
 
-	.spacer{
+	.spacer {
 		height: 0;
 	}
-	.NavIcons{
-		display: none;
+	.NavIcons {
+		display: flex;
 		flex-direction: column;
 		position: inherit;
 		bottom: 45px;
-		margin:10px;
-		transition: all 5s;
+		margin: 10px;
+		padding: 5px;
+		transform: translateX(60px);
 	}
 
 	.NavIcons a {
 		/* border:black 1px solid; */
 		/* border-radius: 5px; */
-		background:rgba(80,137,145,1);
+		background: rgba(18, 80, 107, 1);
 		margin: 10px 0 0 0;
 		box-shadow: 3px 3px #153b50;
-
 	}
-	.NavIcons a:hover{
+	.NavIcons a:hover {
 		transition: none;
 		font-size: 100%;
-		color:white;
+		color: white;
 	}
-	.NavIconButton{
+	.NavIconButton {
 		display: block;
 	}
 }

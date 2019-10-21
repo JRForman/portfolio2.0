@@ -3,7 +3,7 @@
     display: inline-block;
     text-align: center;
     /* float:left; */
-    position: sticky;
+    position: fixed;
     width:250px;
     top: 0px;
     z-index: 5;
@@ -28,8 +28,10 @@
 }
 @media(hover:none){
     .Headline{
-        width: 100%;
-        background:rgba(80,137,145,1);
+        width: 100vw;
+        background: rgba(18, 80, 107, 1);
+        border-bottom: 1px solid black;
+        /* background:rgba(80,137,145,1); */
         height:  45px;
         margin: auto;
     }
