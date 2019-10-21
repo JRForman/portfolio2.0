@@ -1,3 +1,10 @@
-.Solutions{
-    width:100vw;
+.Solutions {
+	width: 100vw;
+	height: calc(100vh - 50px);
+}
+.construction {
+	max-width: 100vw;
+	max-height: calc(100vh - 50px);
+	display: block;
+	margin: 45px auto;
 }
