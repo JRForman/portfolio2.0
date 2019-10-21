@@ -17,7 +17,8 @@
 			"MySQL",
 			"Passport",
 			"ChartJS",
-			"HandleBars"
+			"HandleBars",
+			"Node"
 		],
 		"image": "Career Center Logo.png"
 	},
@@ -108,7 +109,7 @@
 		"github": "https://github.com/JRForman/Bamazon",
 		"deployment": "",
 		"description": "Simple CRUD using MySQL.",
-		"technologies": [],
+		"technologies": ["Node", "MySQL"],
 		"image": "demo_bamazonCustomer.gif"
 	}
 ]
