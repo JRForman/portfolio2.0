@@ -8,7 +8,7 @@
 		"image": ""
 	},
 	{
-		"name": "Personal Webiste",
+		"name": "Personal Website",
 		"github": "https://github.com/JRForman/portfolio2.0",
 		"deployment": "https://www.jrforman.com/",
 		"description": "This website! Bootstrapped with create-react-app and deployed on AWS.",
