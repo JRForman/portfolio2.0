@@ -26,7 +26,7 @@ class Card extends Component {
 		try {
 			var CardImage = require(`../../assets/${this.props.image}`);
 		} catch (e) {
-			CardImage = 'https://via.placeholder.com/150';
+			CardImage = require('../../assets/VaultBoy.png');
 		}
 		var sheight;
 		if (window.innerWidth > 729) {
