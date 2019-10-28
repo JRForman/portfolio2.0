@@ -48,6 +48,8 @@ h2 {
 	padding:3px;
 	background: #cdcdcd;
 	opacity: .7;
+	list-style: none;
+	font-weight: bold;
 	box-shadow: 2px 2px grey;
 }
 
