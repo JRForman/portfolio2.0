@@ -64,16 +64,16 @@ class Card extends Component {
 						X
 					</button>
 					<h2> {this.props.name} </h2>
-					<div>
+					<pl>
 						{techs.map(tech => (
-							<h4
+							<li
 								className={classes.techTags}
 								key={this.getKey()}
 							>
 								{tech}
-							</h4>
+							</li>
 						))}
-					</div>
+					</pl>
 					<div className={classes.description}>
 						<p>{this.props.description}</p>
 					</div>
