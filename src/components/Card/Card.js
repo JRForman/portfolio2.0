@@ -64,7 +64,7 @@ class Card extends Component {
 						X
 					</button>
 					<h2> {this.props.name} </h2>
-					<ul>
+					<pl>
 						{techs.map(tech => (
 							<li
 								className={classes.techTags}
@@ -73,7 +73,7 @@ class Card extends Component {
 								{tech}
 							</li>
 						))}
-					</ul>
+					</pl>
 					<div className={classes.description}>
 						<p>{this.props.description}</p>
 					</div>

@@ -40,6 +40,7 @@ h2 {
 	animation-name: fadeIn;
 	animation-duration: 3s;
 }
+
 .techTags{
 	border: solid 1px black;
 	border-radius: 4px;
@@ -94,6 +95,7 @@ h2 {
 	margin: 6px;
 	text-align: left;
 	border-radius: 1px;
+	cursor: pointer;
 	/* transition: width 0.25s; */
 	position: relative;
 	z-index: 0;
