@@ -34,23 +34,18 @@ class AboutMe extends Component {
 						</p>
 
 						<p>
-							My path forward was pushed to the side at 17 by
-							listening to the wrong person. I was waiting tables
-							to save money for college when I started working
-							with (what I thought was) an actual programmer. He
-							was in our small town to take care of his sick
-							mother and waited tables for spending money. After
-							sharing my joys of coding with him, he flat out told
-							me I couldn’t make it in the industry. “The industry
-							is too cut-throat and a nice kid like you won’t make
-							it” he said. I took this discouragement to heart and
-							went off to college as a pre-med major.
+							While waiting tables to earn money for college, I
+							was pushed to pursue a pre-med track. Off to college
+							I went as an "undecided, pre-med major." I enjoyed
+							the sciences and the rigors of the program, but I
+							wasn't truely happy. I missed computers and the
+							problem solving unique to engineering.
 						</p>
 						<p>
 							Fast forward through a few jobs and minor careers
 							later, and I have found the I have used programming
 							in every step of the way. From creating programs in
-							VB.net that take an assembly of parts and create
+							C# that take an assembly of parts and create
 							drawing sheets, to programming LISP commands to make
 							drawing kitchens faster in AutoCAD, to calculating
 							inventory needs based on projected projects. I have
